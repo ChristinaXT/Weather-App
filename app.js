@@ -1,16 +1,5 @@
-const express = require('express');
-const app = express();
-const port = 3001;
 
-app.get('/', (req, res) => {
-  res.send(`
-    <h1>Welcome</h1>
-  `);
-});
-
-
-
-
-app.listen(port, () => {
-  console.log(`Listening on port: ${port}`);
-});
+const form = document.querySelector(".top-banner form");
+const input = document.querySelector(".top-banner input");
+const msg = document.querySelector(".top-banner .msg");
+const list = document.querySelector(".ajax-section .cities");
