@@ -1,0 +1,15 @@
+{
+  "name": "Weather-App",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": "https://github.com/ChristinaXT/Weather-App.git",
+  "author": "Christina Williams <christinaxtwilliams@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
