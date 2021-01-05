@@ -22,3 +22,12 @@ form.addEventListener("submit", e => {
             inputVal = inputVal.split(",")[0];
             content = el
               .querySelector(".city-name span")
+              .textContent.toLowerCase();
+        } else {
+          content = el.querySelector(".city-name").dataset.name.toLowerCase();
+        }
+      } else {
+        content = el.querySelector(".city-name span").textContent.toLowerCase();
+              }
+              return content == inputVal.toLowerCase();
+            });
