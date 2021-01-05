@@ -13,3 +13,12 @@ form.addEventListener("submit", e => {
   //check if there's already a city
   const listItems = list.querySelectorAll(".ajax-section .city");
   const listItemsArray = Array.from(listItems);
+
+  if (listItemsArray.length > 0) {
+      const filteredArray = listItemsArray.filter(el => {
+        let content = "";
+        if (inputVal.includes(",")) {
+          if (inputVal.split(",")[1].length > 2) {
+            inputVal = inputVal.split(",")[0];
+            content = el
+              .querySelector(".city-name span")
