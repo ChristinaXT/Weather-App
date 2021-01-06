@@ -105,3 +105,11 @@ body {
 .top-banner form button:hover {
   background: var(--darkred);
 }
+
+.top-banner form .msg {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  max-width: 450px;
+  min-height: 40px;
+}
