@@ -1,6 +1,6 @@
 :root {
   --bg_main:  #c94c4c;
-  --text_light: #deeaee;
+  --text_light: #f9d5e5;
   --text_med: #80ced6;
   --text_dark: #034f84;
   --blue: #b7d7e8;
@@ -189,7 +189,7 @@ body {
 }
 
 .page-footer span {
-  color: var(--blue);
+  color: red;
 }
 /* MQ
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
