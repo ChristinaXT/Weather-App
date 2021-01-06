@@ -1,11 +1,11 @@
 :root {
   --bg_main:  linear-gradient(#03045e, #0077b6, #00b4d8, #90e0ef);
   --text_light: #f9d5e5;
-  --text_med: #80ced6;
-  --text_dark: #034f84;
-  --blue: #b7d7e8;
-  --darkblue: #87bdd8;
-  --purple: #4040a1;
+  --text_med: #3a0ca3;
+  --text_dark: #001233;
+  --purple: #7b2cbf;
+  --darkpurple: #3c096c;
+  --hotpink: #ff0054;
 }
 
 * {
@@ -98,12 +98,12 @@ body {
   padding: 15px 20px;
   margin-left: 15px;
   border-radius: 5px;
-  background: var(--blue);
+  background: var(--purple);
   transition: background 0.3s ease-in-out;
 }
 
 .top-banner form button:hover {
-  background: var(--darkblue);
+  background: var(--darkpurple);
 }
 
 .top-banner form .msg {
@@ -169,7 +169,7 @@ body {
   padding: 0.2em 0.6em;
   border-radius: 30px;
   color: var(--text_light);
-  background: var(--purple);
+  background: var(--hotpink);
 }
 
 .ajax-section .city-icon {
