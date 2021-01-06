@@ -191,3 +191,34 @@ body {
 .page-footer span {
   color: var(--red);
 }
+/* MQ
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (max-width: 1000px) {
+  body {
+    padding: 30px;
+  }
+
+  .ajax-section .cities {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .heading,
+  .ajax-section .city-temp {
+    font-size: 3rem;
+  }
+
+  .ajax-section {
+    margin-top: 20px;
+  }
+
+  .top-banner form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .top-banner form input,
+  .top-banner form button {
+    width: 100%;
+  }
