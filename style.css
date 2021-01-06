@@ -27,3 +27,11 @@ button {
 input {
   -webkit-appearance: none;
 }
+
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: inherit;
+}
