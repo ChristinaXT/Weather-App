@@ -7,3 +7,10 @@
   --darkred: #c3112d;
   --orange: #ff8c00;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
