@@ -23,3 +23,7 @@ a {
 button {
   cursor: pointer;
 }
+
+input {
+  -webkit-appearance: none;
+}
