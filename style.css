@@ -1,11 +1,11 @@
 :root {
-  --bg_main: #6b5b95;
-  --text_light: #feb236;
-  --text_med: #d64161;
-  --text_dark: #454140;
+  --bg_main:  #c94c4c;
+  --text_light: #deeaee;
+  --text_med: #80ced6;
+  --text_dark: #034f84;
   --pink: #e06377;
   --darkpink: #c83349;
-  --green: #b5e7a0;
+  --purple: #4040a1;
 }
 
 * {
@@ -169,7 +169,7 @@ body {
   padding: 0.2em 0.6em;
   border-radius: 30px;
   color: var(--text_light);
-  background: var(--green);
+  background: var(--purple);
 }
 
 .ajax-section .city-icon {
