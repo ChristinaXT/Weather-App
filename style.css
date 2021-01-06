@@ -147,3 +147,16 @@ body {
   border-radius: 20px;
   background: var(--text_light);
 }
+
+.ajax-section figcaption {
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.ajax-section .city-temp {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: var(--text_dark);
+}
