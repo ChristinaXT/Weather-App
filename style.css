@@ -98,12 +98,12 @@ body {
   padding: 15px 20px;
   margin-left: 15px;
   border-radius: 5px;
-  background: var(--red);
+  background: var(--pink);
   transition: background 0.3s ease-in-out;
 }
 
 .top-banner form button:hover {
-  background: var(--darkred);
+  background: var(--darkpink);
 }
 
 .top-banner form .msg {
@@ -169,7 +169,7 @@ body {
   padding: 0.2em 0.6em;
   border-radius: 30px;
   color: var(--text_light);
-  background: var(--orange);
+  background: var(--peach);
 }
 
 .ajax-section .city-icon {
@@ -189,7 +189,7 @@ body {
 }
 
 .page-footer span {
-  color: var(--red);
+  color: var(--pink);
 }
 /* MQ
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
