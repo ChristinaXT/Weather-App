@@ -3,8 +3,8 @@
   --text_light: #deeaee;
   --text_med: #80ced6;
   --text_dark: #034f84;
-  --pink: #e06377;
-  --darkpink: #c83349;
+  --blue: #b7d7e8;
+  --darkblue: #87bdd8;
   --purple: #4040a1;
 }
 
@@ -98,12 +98,12 @@ body {
   padding: 15px 20px;
   margin-left: 15px;
   border-radius: 5px;
-  background: var(--pink);
+  background: var(--blue);
   transition: background 0.3s ease-in-out;
 }
 
 .top-banner form button:hover {
-  background: var(--darkpink);
+  background: var(--darkblue);
 }
 
 .top-banner form .msg {
@@ -189,7 +189,7 @@ body {
 }
 
 .page-footer span {
-  color: var(--pink);
+  color: var(--blue);
 }
 /* MQ
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
